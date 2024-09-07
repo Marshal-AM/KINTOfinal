@@ -1,0 +1,24 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "chat": "ts-node chat.ts",
+    "simpleChat": "ts-node simpleLlmChat.ts",
+    "chat_vision": "ts-node chat_vision.ts",
+    "chat_anthropic": "ts-node chat_anthropic.ts",
+    "agent": "ts-node agent.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.4",
+    "ethers": "^6.13.2",
+    "express": "^4.19.2"
+  }
+}
